@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0 20px;
+}
+
+/* Gaya untuk gambar utama */
+img {
+    max-width: 70%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Container untuk h2 dan paragraf */
+.content {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Gaya untuk h2 */
+.content h2 {
+    color: #2c3e50;
+    font-size: 2em;
+    flex: 1; /* agar h2 mengambil satu bagian dari flex container */
+    margin: 0;
+}
+
+/* Gaya untuk paragraf */
+.content p {
+    font-size: 1.1em;
+    text-align: justify;
+    line-height: 1.8;
+    flex: 2; /* agar paragraf mengambil dua bagian dari flex container */
+}
+
+/* Gaya untuk link */
+a {
+    display: block;
+    text-align: center;
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 20px auto;
+    width: max-content;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+a:hover {
+    background-color: #2980b9;
+}
+
+/* Gaya untuk galeri gambar */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.gallery img {
+    max-width: 150px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
